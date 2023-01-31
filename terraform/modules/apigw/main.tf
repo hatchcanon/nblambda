@@ -1,5 +1,6 @@
 module "apigw" {
   source = "terraform-aws-modules/apigateway-v2/aws"
+  version = "~> 2.0"
 
   name          = var.apiname
   description   = "example API Gateway"

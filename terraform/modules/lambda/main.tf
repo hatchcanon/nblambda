@@ -1,6 +1,6 @@
 module "nodelambda" {
   source  = "terraform-module/lambda/aws"
-  version = "~> 3.0"
+  version = "~> 4.0"
 
   description   = "this is example code"
   filename      = data.archive_file.lambda.output_path
